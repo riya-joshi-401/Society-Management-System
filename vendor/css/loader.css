@@ -1,0 +1,130 @@
+#loading-container {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 50px 50px;
+  grid-template-rows: 50px 50px;
+  justify-content: center;
+  align-content: center;
+  background-size: 1600% 1600%;
+  animation: moveBackground 3s linear infinite;
+}
+
+.cube {
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+#cube1 {
+  background: #a5adf8;
+  animation-name: moveCube1;
+  border: 1px solid white;
+}
+
+#cube2 {
+  background: #5761bd;
+  animation-name: moveCube2;
+  border: 1px solid white;
+}
+
+#cube3 {
+  background: #2624a3;
+  animation-name: moveCube3;
+  border: 1px solid white;
+}
+
+#cube4 {
+  background: #010757;
+  animation-name: moveCube4;
+  animation-delay: 0.1s;
+  border: 1px solid white;
+}
+
+/** Animation-Keyframes **/
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0% 100%;
+  }
+
+  50% {
+    background-position: 100% 0%;
+  }
+
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+@keyframes moveCube1 {
+  0% {
+    transform: translate(0%, 0%);
+  }
+
+  25% {
+    transform: translate(100%, 0%);
+  }
+
+  50% {
+    transform: translate(100%, 100%);
+  }
+
+  75% {
+    transform: translate(0%, 100%);
+  }
+}
+
+@keyframes moveCube2 {
+  0% {
+    transform: translate(0%, 0%);
+  }
+
+  25% {
+    transform: translate(0%, 100%);
+  }
+
+  50% {
+    transform: translate(-100%, 100%);
+  }
+
+  75% {
+    transform: translate(-100%, 0%);
+  }
+}
+
+@keyframes moveCube3 {
+  0% {
+    transform: translate(0%, 0%);
+  }
+
+  25% {
+    transform: translate(0%, -100%);
+  }
+
+  50% {
+    transform: translate(100%, -100%);
+  }
+
+  75% {
+    transform: translate(100%, 0%);
+  }
+}
+
+@keyframes moveCube4 {
+  0% {
+    transform: translate(0%, 0%);
+  }
+
+  25% {
+    transform: translate(-100%, 0%);
+  }
+
+  50% {
+    transform: translate(-100%, -100%);
+  }
+
+  75% {
+    transform: translate(0%, -100%);
+  }
+}

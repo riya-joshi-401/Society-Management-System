@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMS</title>
+  <link
+    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+
+  <!-- fontawesome-icons -->
+  <link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css" type="text/css">
+
+  <!-- Custom styles for this template-->
+  <link href="vendor/css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="vendor/css/fonts.css" rel="stylesheet">
+  <link href="vendor/css/index.css" rel="stylesheet">
+  <!-- SWIPER JS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <!-- <style>
+    body {
+      background: #fff;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      min-height: 100vh;
+    }
+
+    .carousel-wrapper {
+      background-color: #111;
+      min-height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 150px;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 250px;
+      height: 250px;
+      background-color: #000;
+      -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006);
+    }
+
+    .swiper-slide img {
+      width: 250px;
+      height: 250px;
+    }
+  </style> -->
+  <style>
+    .bg-wrapper {
+      min-height: 100vh;
+      width: 100vw;
+      color: black;
+      font-family: 'PlayfairDisplay-Regular';
+      /* background-image: url('vendor/img/home.jpg');
+      background-size: 100% 100%;
+      background-repeat: no-repeat; */
+    }
+
+    .home-container {
+      padding-top: 42px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bg-wrapper">
+    <!-- NAVBAR BEGIN -->
+    <section class="home-nav fixed-top">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand logo d-none d-md-block" href="#">Society Management System</a>
+          <a class="navbar-brand logo d-block d-md-none" href="#">SMS</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link home-links" href="#">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link home-links" href="login.php">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- NAVBAR END -->
+    <div class="home-container">
+      <div class="row">
+        <div class="col-md-7 order-last order-md-first align-self-center">
+          <div class="text-header text-center">
+            One stop destination for effective management of a Society
+          </div>
+          <div class="buttons-home text-center mt-3">
+            <a href="#knowmore" class="btn btn-outline-primary shadow px-5 py-2">Know More </a>
+          </div>
+        </div>
+        <div class="col-md-5 text-center home-img-col">
+          <!-- <img src="vendor/img/home.jpg" alt="home" class="home-img"> -->
+          <img src="vendor/img/homw2.jpg" alt="home" class="home-img">
+        </div>
+      </div>
+    </div>
+    <div class="row" style="background-color: #cfcfcf;">
+      <div class="col-12 py-2 text-center font-weight-bold" style="font-size:2rem;text-transform: uppercase;">Our
+        Features</div>
+    </div>
+    <div class="mx-4 my-5">
+      <div class="card-deck">
+        <div class="card card1 shadow justify-content-center align-items-center">
+          <div class="card-body text-center">
+            <div class="overlay"></div>
+            <div class="circle">
+              <i class="fas fa-home"></i>
+            </div>
+            <p class="card-heading font-weight-bold" style="font-size:1.5rem;color: #4C5656;">Manage Flats</p>
+          </div>
+        </div>
+        <div class="card card2 shadow justify-content-center align-items-center">
+          <div class="card-body text-center">
+            <div class="overlay"></div>
+            <div class="circle">
+              <i class="fas fa-users"></i>
+            </div>
+            <p class="card-heading font-weight-bold" style="font-size:1.5rem;color: #4C5656;">Manage Users</p>
+          </div>
+        </div>
+        <div class="card card3 shadow justify-content-center align-items-center">
+          <div class="card-body text-center">
+            <div class="overlay"></div>
+            <div class="circle">
+              <i class="fas fa-money-bill"></i>
+            </div>
+            <p class="card-heading font-weight-bold" style="font-size:1.5rem;color: #4C5656;">Manage Bills</p>
+          </div>
+        </div>
+        <div class="card card4 shadow justify-content-center align-items-center">
+          <div class="card-body text-center">
+            <div class="overlay"></div>
+            <div class="circle">
+              <i class="fas fa-user-friends"></i>
+            </div>
+            <p class="card-heading font-weight-bold" style="font-size:1.5rem;color: #4C5656;">Manage Visitors</p>
+          </div>
+        </div>
+        <div class="card card5 shadow justify-content-center align-items-center">
+          <div class="card-body text-center">
+            <div class="overlay"></div>
+            <div class="circle">
+              <i class="fas fa-notes-medical"></i>
+            </div>
+            <p class="card-heading font-weight-bold" style="font-size:1.5rem;color: #4C5656;">Manage Complaints</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="knowmore">
+      <div class="row" style="background-color: #cfcfcf;">
+        <div class="col-12 py-2 text-center font-weight-bold" style="font-size:2rem;text-transform: uppercase;">Know
+          More</div>
+      </div>
+      <div class="knowmore-wrapper">
+        <div class="container know-more-container">
+          <div class="mt-5 text-justify">
+            <div class="accordion" id="faq">
+              <div class="card shadow">
+                <div class="card-header" id="faqhead1">
+                  <a to="#" class="btn btn-header-link" data-toggle="collapse" data-target="#faq1" aria-expanded="true"
+                    aria-controls="faq1">
+                    Maintenance Payment Schedule
+                  </a>
+                </div>
+
+                <div id="faq1" class="collapse show" aria-labelledby="faqhead1" data-parent="#faq">
+                  <div class="card-body">
+                    Using this feature, the management committee members can quickly send a generate payment schedule to
+                    collect maintenance dues from all apartment owners.
+                  </div>
+                </div>
+              </div>
+              <div class="card shadow">
+                <div class="card-header" id="faqhead2">
+                  <a to="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq2"
+                    aria-expanded="true" aria-controls="faq2">
+                    Maintenance Collection
+                  </a>
+                </div>
+
+                <div id="faq2" class="collapse" aria-labelledby="faqhead2" data-parent="#faq">
+                  <div class="card-body">
+                    The transaction of the maintenance bill is one of the most important tasks. But, sometimes they
+                    don’t get the maintenance bill promptly or sometimes they don’t have lots of time to pay their
+                    bills. This Society management Solution provides truly amazing solutions to pay maintenance bills.
+                    This also reminds of bill payment by SMS alert. People can pay their maintenance bills using payment
+                    gateway by sitting at the comfort of their home and need not search for management people for making
+                    their payments. Even, they can also check the status of their maintenance payment and get receipt
+                    instantly.
+                  </div>
+                </div>
+              </div>
+              <div class="card shadow">
+                <div class="card-header" id="faqhead3">
+                  <a to="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq3"
+                    aria-expanded="true" aria-controls="faq3">
+                    Shoutbox
+                  </a>
+                </div>
+
+                <div id="faq3" class="collapse" aria-labelledby="faqhead3" data-parent="#faq">
+                  <div class="card-body">
+                    A community where various families remain together, the communication gap is one of the most
+                    important problems between them. Through My Group & Connections feature, the members can link with
+                    other community members, speak to them, and discuss important info with each other effectively.
+                  </div>
+                </div>
+              </div>
+              <div class="card shadow">
+                <div class="card-header" id="faqhead4">
+                  <a to="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq4"
+                    aria-expanded="true" aria-controls="faq4">
+                    Publish Notice for Your Society
+                  </a>
+                </div>
+
+                <div id="faq4" class="collapse" aria-labelledby="faqhead4" data-parent="#faq4">
+                  <div class="card-body">
+                    Resident welfare association can publish notice and reach all members instantly. RWA can also see
+                    how many members have read the notice. Society members will get instant notification and email to
+                    read and follow the instruction mentioned in the notice.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="row">
+      <div class="col-12 py-5">
+        <div class="copyright text-center my-auto">
+          <span>Copyright &copy; 2020-21 PERJ, All Rights Reserved.</span>
+        </div>
+      </div>
+    </div>
+</body>
+
+<!-- <body>
+  <section class="home-nav fixed-top">
+  ADD NAVBAR HERE 
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+        <a class="navbar-brand logo" href="#">Society Management System</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link home-links" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link home-links" href="login.php">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </nav>
+  </section>
+
+  <div class='carousel-wrapper'>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="vendor/img/carousel/car6.png" alt=""></div>
+        <div class="swiper-slide"><img src="vendor/img/carousel/car2.png" alt=""></div>
+        <div class="swiper-slide"><img src="vendor/img/carousel/car5.png" alt=""></div>
+        <div class="swiper-slide"><img src="vendor/img/carousel/car9.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="vendor/img/carousel/car8.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="vendor/img/carousel/car10.jpg" alt=""></div>
+      </div>
+    </div>
+  </div>
+
+  <div style="height:1000px" >
+
+  </div> -->
+
+<section>
+  <!-- ADD DESCRIPTION HERE -->
+</section>
+
+<section>
+  <!-- ADD FOOTER HERE -->
+</section>
+
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Core plugin JavaScript-->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for all pages-->
+<script src="vendor/js/sb-admin-2.min.js"></script>
+<!-- SWIPER JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      loop: true,
+      autoplay: {
+        delay: 1500,
+        disableOnInteraction: false,
+      },
+      coverflowEffect: {
+        rotate: 20,
+        stretch: 0,
+        depth: 200,
+        modifier: 1,
+        slideShadows: true,
+      },
+    });
+  </script> -->
+
+<script>
+  $(document).ready(function () {
+    $(window).scroll(function () {
+      var scroll = $(window).scrollTop();
+      if (scroll > 80) {
+        $(".home-nav").css("background", "#0009");
+        $(".home-links").css("color", "white");
+        $(".logo").css("color", "white");
+      }
+
+      else {
+        $(".home-nav").css("background", "");
+        $(".home-links").css("color", "black");
+        $(".logo").css("color", "black");
+
+      }
+    })
+  });
+
+  $(document).ready(function () {
+    $(window).scroll(function () {
+      var scroll = $(window).scrollTop();
+      if (scroll > 80) {
+        $(".home-nav").css("backdrop-filter", "saturate(190%) blur(10px)");
+      }
+
+      else {
+        $(".home-nav").css("backdrop-filter", "");
+      }
+    })
+  });
+</script>
+<!-- </body>  -->
+
+</html>

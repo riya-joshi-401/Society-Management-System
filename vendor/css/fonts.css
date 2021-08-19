@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "Karla-Regular";
+  font-display: swap;
+  src: url("../../vendor/fonts/Karla/Karla-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Karla-Bold";
+  font-display: swap;
+  src: url("../../vendor/fonts/Karla/Karla-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Karla-BoldItalic";
+  font-display: swap;
+  src: url("../../vendor/fonts/Karla/Karla-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Karla-Italic";
+  font-display: swap;
+  src: url("../../vendor/fonts/Karla/Karla-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "PlayfairDisplay-Regular";
+  font-display: swap;
+  src: url("../../vendor/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "PlayfairDisplay-Black";
+  font-display: swap;
+  src: url("../../vendor/fonts/Playfair_Display/PlayfairDisplay-Black.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "PlayfairDisplay-Bold";
+  font-display: swap;
+  src: url("../../vendor/fonts/Playfair_Display/PlayfairDisplay-Bold.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "PlayfairDisplay-Italic";
+  font-display: swap;
+  src: url("../../vendor/fonts/Playfair_Display/PlayfairDisplay-Italic.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "PlayfairDisplay-BoldItalic";
+  font-display: swap;
+  src: url("../../vendor/fonts/Playfair_Display/PlayfairDisplay-BoldItalic.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  font-display: swap;
+  src: url("../../vendor/fonts/Montserrat/Montserrat-Light.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  font-display: swap;
+  src: url("../../vendor/fonts/Montserrat/Montserrat-Regular.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  font-display: swap;
+  src: url("../../vendor/fonts/Montserrat/Montserrat-SemiBold.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  font-display: swap;
+  src: url("../../vendor/fonts/Montserrat/Montserrat-Bold.ttf")
+    format("truetype");
+}

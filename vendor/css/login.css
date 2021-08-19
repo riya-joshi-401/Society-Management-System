@@ -1,0 +1,91 @@
+.forms-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.userForm .form-control,
+.adminForm .form-control,
+.securityForm .form-control {
+  min-height: 38px;
+  box-shadow: none !important;
+  border-width: 0 0 1px 0;
+  border-radius: 0;
+  color: rgb(136, 109, 109);
+}
+.form-group {
+  margin-bottom: 25px;
+}
+
+.userForm .fa,
+.adminForm .fa,
+.securityForm .fa {
+  position: relative;
+  top: 6px;
+  color: black !important;
+  font-size: 22px;
+}
+#togglePassword,
+#togglePass {
+  color: #000 !important;
+}
+
+.login-wrapper {
+  background-image: url("../img/login.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.form-container-l1 {
+  background-color: rgba(255, 255, 255, 0.65);
+  /* backdrop-filter: blur(5px); */
+  border-radius: 10px;
+  padding: 20px;
+}
+
+input {
+  color: #000 !important;
+}
+.forrm {
+  background-color: transparent !important;
+  /*color: black !important;*/
+}
+::placeholder {
+  color: #000 !important;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #000 !important;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #000 !important;
+}
+
+.form-container-l1 .nav-link.active {
+  background-color: #000;
+}
+
+.form-container-l1 .nav-link.active a {
+  color: #fff !important;
+}
+
+.btn-black {
+  color: #fff !important;
+  background-color: #000;
+  border-color: #000;
+}
+
+.linker {
+  color: #000;
+}
+
+.nav-fill {
+  margin-bottom: 20px;
+}
+
+.rmme {
+  color: #000 !important;
+}

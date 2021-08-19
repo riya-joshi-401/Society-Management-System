@@ -1,0 +1,382 @@
+* {
+  overflow-x: hidden;
+}
+
+.home-links {
+  font-family: PlayfairDisplay-Bold;
+  font-size: 1.3rem;
+  color: black;
+  padding: 4px 20px !important;
+  transition: transform 1s;
+  margin: 0px 5px !important;
+}
+
+.logo {
+  font-family: PlayfairDisplay-Bold;
+  font-size: 1.5rem;
+  color: black;
+  transition: transform 0.5s;
+  padding: 4px 20px !important;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.logo:hover,
+.home-links:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 10px;
+}
+
+.home-container {
+  width: 100vw;
+}
+
+.home-container .row {
+  height: 70%;
+}
+
+.text-header {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 769px) {
+  .text-header {
+    font-size: 1.5rem;
+  }
+
+  .buttons-home {
+    padding-bottom: 20px;
+  }
+
+  .home-container {
+    padding-top: 84px !important;
+  }
+}
+
+.home-img-col {
+  padding-right: 0 !important;
+}
+
+.home-img-col img {
+  height: 80%;
+  width: 80%;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5 {
+  transition: all 0.3s ease-out;
+  overflow: hidden;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+}
+
+.card1:hover {
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+    0 24px 46px rgba(255, 215, 97, 0.48) !important;
+}
+
+.card2:hover {
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+    0 24px 46px rgba(184, 249, 211, 0.48) !important;
+}
+
+.card3:hover {
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+    0 24px 46px rgba(206, 178, 252, 0.48) !important;
+}
+
+.card4:hover {
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+    0 24px 46px rgba(252, 178, 178, 0.48) !important;
+}
+
+.card5:hover {
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+    0 24px 46px rgba(178, 189, 252, 0.48) !important;
+}
+
+.card1:hover .overlay,
+.card2:hover .overlay,
+.card3:hover .overlay,
+.card4:hover .overlay,
+.card5:hover .overlay {
+  transform: scale(7) translateZ(0);
+}
+
+.card1:hover .circle {
+  border-color: #ffeeba;
+  background: #ffd861;
+}
+
+.card2:hover .circle {
+  border-color: #e2fced;
+  background: #b8f9d3;
+}
+
+.card3:hover .circle {
+  border-color: #f0e7ff;
+  background: #ceb2fc;
+}
+
+.card4:hover .circle {
+  border-color: #ffe7e7;
+  background: #fcb2b2;
+}
+
+.card5:hover .circle {
+  border-color: #e7ebff;
+  background: #b2bffc;
+}
+
+.card1:hover .circle:after {
+  background: #ffeeba;
+}
+
+.card2:hover .circle:after {
+  background: #e2fced;
+}
+
+.card3:hover .circle:after {
+  background: #f0e7ff;
+}
+
+.card4:hover .circle:after {
+  background: #ffe7e7;
+}
+
+.card5:hover .circle:after {
+  background: #e7edff;
+}
+
+.card1:active {
+  transform: scale(1) translateZ(0);
+  box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11),
+    0 15px 24px rgba(255, 215, 97, 0.48);
+}
+.card2:active {
+  transform: scale(1) translateZ(0);
+  box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11),
+    0 15px 24px rgba(184, 249, 211, 0.48);
+}
+.card3:active {
+  transform: scale(1) translateZ(0);
+  box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11),
+    0 15px 24px rgba(206, 178, 252, 0.48);
+}
+.card4:active {
+  transform: scale(1) translateZ(0);
+  box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11),
+    0 15px 24px rgba(252, 178, 178, 0.48);
+}
+
+.card5:active {
+  transform: scale(1) translateZ(0);
+  box-shadow: 0 15px 24px rgba(0, 0, 0, 0.11),
+    0 15px 24px rgba(178, 185, 252, 0.48);
+}
+
+.circle {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease-out;
+  margin: auto;
+}
+
+.card1 .circle {
+  border: 2px solid #ffd861;
+}
+
+.card2 .circle {
+  border: 2px solid #b8f9d3;
+}
+
+.card3 .circle {
+  border: 2px solid #ceb2fc;
+}
+
+.card4 .circle {
+  border: 2px solid #fcb2b2;
+}
+
+.card5 .circle {
+  border: 2px solid #b2b9fc;
+}
+
+.circle:after {
+  content: "";
+  width: 118px;
+  height: 118px;
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  top: 7px;
+  left: 7px;
+  transition: opacity 0.3s ease-out;
+}
+
+.card1 .circle:after {
+  background: #ffd861;
+}
+.card2 .circle:after {
+  background: #b8f9d3;
+}
+.card3 .circle:after {
+  background: #ceb2fc;
+}
+
+.card4 .circle:after {
+  background: #fcb2b2;
+}
+
+.card5 .circle:after {
+  background: #b2bffc;
+}
+
+.circle i {
+  z-index: 10000;
+  font-size: 40px;
+  transform: translateZ(0);
+}
+
+.overlay {
+  width: 118px;
+  position: absolute;
+  height: 118px;
+  border-radius: 50%;
+  top: 25px;
+  left: 110px;
+  z-index: -1;
+  transition: transform 0.3s ease-out;
+}
+
+.card1 .overlay {
+  background: #ffd861;
+}
+
+.card2 .overlay {
+  background: #b8f9d3;
+}
+
+.card3 .overlay {
+  background: #ceb2fc;
+}
+
+.card4 .overlay {
+  background: #fcb2b2;
+}
+
+.card5 .overlay {
+  background: #b2bdfc;
+}
+
+.card p {
+  z-index: 1000;
+  transition: color 0.3s ease-out;
+}
+
+.card1 i {
+  color: #d98a19;
+}
+
+.card2 i {
+  color: #5bd6a2;
+}
+
+.card3 i {
+  color: #8b6fc0;
+}
+
+.card4 i {
+  color: #c06f6f;
+}
+
+.card5 i {
+  color: #6f7bc0;
+}
+
+/* KNOW MORE SECTION */
+
+.know-more-container {
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: -webkit-box;
+  display: flex;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+}
+
+.know-more-container #faq .card {
+  margin-bottom: 30px;
+  border: 0;
+}
+
+.know-more-container #faq .card .card-header {
+  border: 0;
+  -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+  box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+  border-radius: 2px;
+  padding: 0;
+}
+
+.know-more-container #faq .card .card-header .btn-header-link {
+  /* color: #fff; */
+  display: block;
+  text-align: left;
+  background-color: rgb(238 186 197);
+  padding: 20px;
+  font-weight: bold;
+}
+
+.know-more-container #faq .card .card-header .btn-header-link:after {
+  content: "-";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900 !important;
+  float: right;
+}
+
+.know-more-container #faq .card .card-header .btn-header-link.collapsed:after {
+  content: "+";
+  font-weight: 900 !important;
+}
+
+.know-more-container #faq .card .collapse {
+  line-height: 30px;
+}
+
+.know-more-container #faq .card .collapse {
+  border: 0;
+}
+
+.know-more-container #faq .card .collapse.show {
+  line-height: 30px;
+}
