@@ -1,11 +1,11 @@
-<b>Scope:</b> 
+<ins><b>Scope:</b></ins>
 
 The scope of the project is to develop a web application for the people living in a society so as to ease
 the process of managing the various activities and events of a society. Society Management System automates
 certain attributes that occur within the society and makes it easy for the members and administrators of
 the society to view, store and manage the different activities.
 
-<b>Features:</b>
+<ins><b>Features:</b></ins>
 
 1. Login admin
 2. Login user
